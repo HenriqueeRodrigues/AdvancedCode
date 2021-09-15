@@ -32,10 +32,5 @@ namespace AdvancedCode.Classes.C19030807
                 }
             }
         }
-
-        public void AnotherRunTest()
-        {
-            
-        }
     }
 }

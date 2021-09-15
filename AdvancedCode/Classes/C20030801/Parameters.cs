@@ -17,13 +17,6 @@ namespace AdvancedCode.Classes.C20030801
             WriteDetails("Luke", "Last Av.", "New York", totalPurchased: 2000m);
         }
 
-        /*public void WriteDetails(string customerName, string address, int age)
-        {
-            Console.WriteLine("Customer Name: " + customerName);
-            Console.WriteLine("Customer Address: " + address);
-            Console.WriteLine("Customer Age: " + age);
-        }*/
-
         public void WriteDetails(string customerName, string address, string city, int age = 0, decimal totalPurchased = 0)
         {
             Console.WriteLine("Customer Name: " + customerName);

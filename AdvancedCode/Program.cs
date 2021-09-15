@@ -11,7 +11,7 @@ namespace AdvancedCode
     {
         static void Main(string[] args)
         {
-            IClassRoom classRoom = new Classes.C19030805.MethodsWithTuple();
+            IClassRoom classRoom = new Classes.C19030806.MethodWithParams();
             classRoom.RunTest();
 
             Console.ReadLine();

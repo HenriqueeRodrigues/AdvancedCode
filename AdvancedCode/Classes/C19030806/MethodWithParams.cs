@@ -1,9 +1,7 @@
 ﻿using AdvancedCode.Base;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace AdvancedCode.Classes.C19030806
 {
@@ -19,7 +17,7 @@ namespace AdvancedCode.Classes.C19030806
             
             DeleteCustomerIdWithParams(1);
             DeleteCustomerIdWithParams(1, 2, 3, 10, 15);
-            DeleteCustomerIdWithParams("Another descriptions - Delete customer with id: ", 1, 2, 3, 10, 15);
+            DeleteCustomerIdWithParams("Another descriptions - Delete customer with id: " , 1, 2, 3, 10, 15);
 
             WriteSomething("Test", 1, "Customer", 3, 4, 5);
         }
