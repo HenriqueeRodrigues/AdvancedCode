@@ -29,7 +29,7 @@ namespace AdvancedCode.Classes.C20031102
         public void RunTest()
         {
             WriteTextInConsole writeTextInConsole = WriteWelcome;
-            writeTextInConsole("John");
+            writeTextInConsole("Henrique");
 
             writeTextInConsole = WriteMessage;
             writeTextInConsole($"You purchased {150} in this day.");
@@ -37,7 +37,7 @@ namespace AdvancedCode.Classes.C20031102
             writeTextInConsole($"You purchased {210} in this day.");
 
             writeTextInConsole = WriteBye;
-            writeTextInConsole("John");
+            writeTextInConsole("Henrique");
         }
     }
 }

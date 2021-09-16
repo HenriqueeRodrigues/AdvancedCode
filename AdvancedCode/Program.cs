@@ -11,7 +11,7 @@ namespace AdvancedCode
     {
         static void Main(string[] args)
         {
-            IClassRoom classRoom = new Classes.C19030806.MethodWithParams();
+            IClassRoom classRoom = new Classes.C20030803.YieldClassTests();
             classRoom.RunTest();
 
             Console.ReadLine();

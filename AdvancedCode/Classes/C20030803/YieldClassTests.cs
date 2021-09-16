@@ -27,6 +27,7 @@ namespace AdvancedCode.Classes.C20030803
             yield return Banks.Bradesco;
             yield return Banks.Itau;
             yield return Banks.BancoDoBrasil;
+            yield return Banks.Nu;
         }
 
         public IEnumerable<int> GetSingleDigits()
@@ -48,6 +49,7 @@ namespace AdvancedCode.Classes.C20030803
     {
         Bradesco = 1,
         Itau = 2,
-        BancoDoBrasil = 3
+        BancoDoBrasil = 3,
+        Nu = 4
     }
 }
