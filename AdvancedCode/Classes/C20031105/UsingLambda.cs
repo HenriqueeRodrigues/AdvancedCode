@@ -13,7 +13,7 @@ namespace AdvancedCode.Classes.C20031105
 
         public void RunTest()
         {
-            WriteInConsole writeInConsole = () => Console.WriteLine("This is a sample of using delegate with lambda without args and return!");
+            WriteInConsole writeInConsole = () => Console.WriteLine("This is a sample of using delegate with lambda without args and return");
 
             WriteSomething(writeInConsole);
         }
